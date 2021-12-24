@@ -17,9 +17,9 @@ import List from "./views/list";
 const App = () => {
   return (
     <>
-      <Router>
       <img src={Voz} alt=""/>      
       <Nav />
+      <Router>
       <Switch>
       
           <Route exact path="/"  component={Home} />;
