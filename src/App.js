@@ -17,10 +17,10 @@ import List from "./views/list";
 const App = () => {
   return (
     <>
+      <BrowserRouter>
       <img src={Voz} alt=""/>      
       <Nav />
-      <Home /> 
-      <BrowserRouter>
+      
       <Switch>
           <Route exact path="/"  component={Home} />;
           <Route exact path="/main" component={Main} />;
