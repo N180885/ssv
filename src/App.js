@@ -20,7 +20,7 @@ const App = () => {
       <img src={Voz} alt=""/>      
       <Nav />
       <Home /> 
-      {/* <BrowserRouter> */}
+      <BrowserRouter>
       <Switch>
           <Route exact path="/"  component={Home} />;
           <Route exact path="/main" component={Main} />;
@@ -33,7 +33,7 @@ const App = () => {
           <Route exact path="/add" component={Add} />;
           <Route exact path="/list" component={List} />;
         </Switch>
-        {/* </BrowserRouter>    */}
+        </BrowserRouter>   
       
     </>
   );
