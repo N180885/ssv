@@ -15,7 +15,7 @@ class Main extends Component {
             <div className="login">
               <b>Логин:</b>
               <input
-                OnChange={(e) => this.setState({ login: e.target.value })}
+                onChange={(e) => this.setState({ login: e.target.value })}
                 type="text"
                 placeholder="Введите ваш логин"
               />
@@ -23,12 +23,12 @@ class Main extends Component {
             <div className="parol">
               <b>Пароль:</b>
               <input
-                OnChange={(e) => this.setState({ parol: e.target.value })}
+                onChange={(e) => this.setState({ parol: e.target.value })}
                 type="password"
                 placeholder="Введите ваш пароль"
               />
             </div>
-            <Link to="/regist">Вход</Link>
+            <Link to="/register">Вход</Link>
           </div>
         </div>     
       </>

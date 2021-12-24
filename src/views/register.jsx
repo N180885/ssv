@@ -1,7 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import {Link} from "react-router-dom";
-const Regist = () => {
-  return (
+class Register extends Component {
+  state={};
+  render() {
+   return (
     <>
       <div className="container">
           <div className="nazad">
@@ -16,5 +18,6 @@ const Regist = () => {
       </div>
     </>
   );
+}
 };
-export default Regist;
+export default Register;

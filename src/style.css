@@ -25,7 +25,7 @@ img{
 
 nav{
     width: 100%;
-    font-size:20px;
+    font-size: 1.25rem;
     height: 7vh;
     display: flex;
     align-items: center;
@@ -47,19 +47,19 @@ nav{
     flex-direction: column;
     align-items: end;
     justify-content: center;
-    margin-top: -200px;
+    margin-top: 12.5rem;
 }
 .log1 h1{
-    font-size:18px;
+    font-size: 1.12rem;
     font-weight: 700;
     font-style: italic;   
-    margin-bottom: 30px;
-    margin-left: 70px;
+    margin-bottom: 1.87rem;
+    margin-left: 4.37rem;
 }
 .log1 a{
-    height: 30px;
-    width: 130px;
-    font-size: 18px;
+    height: 1.87rem;
+    width: 8.12rem;
+    font-size: 1.12rem;
     border: 1px solid #000;    
     background-color: #ccc;
     display: flex;
@@ -70,18 +70,18 @@ nav{
     background-color: rgb(248, 248, 248);
 }
 .login,.parol{
-    font-size:18px;
+    font-size: 1.12rem;
     font-weight: 600;
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .log input{
     margin-left: 10px;
-    height: 30px;
-    width: 200px;
+    height: 1.87rem;
+    width: 12.5rem;
 }
 .log button{
-    margin-left: 140px;
+    margin-left: 8.75rem;
 }
 .main{
     width: 100%;
@@ -92,10 +92,10 @@ nav{
     position: relative;    
 }
 .name{
-    margin-top: 5px;
-    font-size: 25px;
+    margin-top: .31rem;
+    font-size: 1.56rem;
     text-align: center;
-    line-height: 80px;
+    line-height: 5rem;
     display: flex;
     align-items:stretch;
 }
@@ -109,7 +109,7 @@ nav{
 .main a{
     
     font-weight: 700;    
-    margin-top: 10px;
+    margin-top: .62rem;
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
@@ -133,7 +133,7 @@ nav{
     border: 1px solid black;
     background-color:#ccc;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 700;
     padding: 3px;    
     text-align: center;
@@ -145,45 +145,45 @@ nav{
 
 }
 .links a{
-    width: 300px;
-    height: 100px;
+    width: 18.75rem;
+    height: 6.25rem;
     border: 1px solid black;
     background-color:#ccc;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
-    padding: 40px;    
+    padding: 2.5rem;    
     text-align: center;
 }
 .tab button{
-   width: 200px;
-   padding: 10px;
+   width: 12.5rem;
+   padding: 0.62rem;
    background-color:#ccc;
    border-radius: 5px;
    border: 1px solid black;
    cursor: pointer;
-   margin-top: 20px;
-   margin-left: 750px;
+   margin-top: 1.25rem;
+   margin-left: 46.8rem;
 }
 .tab{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 
 }
 .one h1{
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 2.5rem;
     font-weight: 600;
-    height: 30px;
+    height: 1.87rem;
 }
 .d1 b{
-    height: 25px;
-    width: 30px;
+    height: 1.56rem;
+    width: 1.87rem;
     background-color:#ccc;
     border: 1px solid black;
     display: flex;
@@ -191,8 +191,8 @@ nav{
     justify-content: center; 
 }
 .d2 b{
-    height: 25px;
-    width: 230px;
+    height: 1.56rem;
+    width: 14.37rem;
     background-color:#ccc;
     border: 1px solid black;
     display: flex;
@@ -208,8 +208,8 @@ nav{
     flex-direction: column;
 }
 .d1>p{
-    height: 25px;
-    width: 30px;
+    height: 1.56rem;
+    width: 1.87rem;
     background-color:#ccc;
     border: 1px solid black;
     display: flex;
@@ -217,8 +217,8 @@ nav{
     justify-content: center; 
 }
 .d2>p{
-    height: 25px;
-    width: 230px;
+    height: 1.56rem;
+    width: 14.37rem;
     background-color:#ccc;
     border: 1px solid black;
     display: flex;
@@ -227,8 +227,8 @@ nav{
     padding-left: 10px; 
 }
 .d3 input,.d4 input,.d3 b,.d4 b{
-    height: 25px;
-    width: 330px;
+    height: 1.56rem;
+    width: 20.62rem;
     background-color:rgb(231, 231, 231);
     border: 1px solid black;
     display: flex;
@@ -240,3 +240,58 @@ nav{
 .d3,.d4 {
     align-items: center;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    
+nav{
+    font-size: 1rem;  
+}
+.name h1{
+    margin-top: 5px;
+    font-size: 1.56rem;
+    text-align: center;
+    line-height: 3.12rem;
+    display: flex;
+    align-items:stretch;
+}
+.name>img{
+    width: 25rem;
+    height: 37rem;
+    position:relative;    
+    opacity: 1;
+}    
+}
+
+@media screen and (max-width: 425px){
+    
+    nav{
+        text-align:center;        
+        font-size: 0.8rem;  
+    }
+    .name h1{
+        margin-top: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 4rem;
+        display: flex;
+        align-items:stretch;
+    }
+    .name>img{
+        display:none;        
+    }
+    .log1{     
+        margin-top: -50px;
+    }
+    .links a{
+        width: 13rem;
+        height: auto;       
+        font-size: 0.8rem;        
+        padding: 1rem;
+    }        
+    }

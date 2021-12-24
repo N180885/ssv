@@ -5,7 +5,7 @@ import Nav from "./components/nav";
 import Main from "./components/main";
 import Home from "./components/home";
 import Enter from "./views/enter";
-import Regist from "./views/regist";
+import Register from "./views/register";
 import Sot from "./views/sot";
 import Rez from "./views/rez";
 import Lech from "./views/lech";
@@ -19,11 +19,11 @@ const App = () => {
     <>
       <img src={Voz} alt=""/>      
       <Nav /> 
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
       <Switch>
           <Route exact path="/"  component={Home} />;
           <Route exact path="/main" component={Main} />;
-          <Route exact path="/regist" component={Regist} />;
+          <Route exact path="/register" component={Register} />;
           <Route exact path="/enter" component={Enter} />;
           <Route exact path="/sot" component={Sot} />;
           <Route exact path="/rez" component={Rez} />;
@@ -32,7 +32,7 @@ const App = () => {
           <Route exact path="/add" component={Add} />;
           <Route exact path="/list" component={List} />;
         </Switch>
-        </BrowserRouter>   
+        {/* </BrowserRouter>    */}
       
     </>
   );
