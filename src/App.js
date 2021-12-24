@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch} from "react-router-dom";
+import { BrowserRouter, Route, Switch, Router} from "react-router-dom";
 import "./style.css";
 import Nav from "./components/nav";
 import Main from "./components/main";
@@ -17,11 +17,11 @@ import List from "./views/list";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <Router>
       <img src={Voz} alt=""/>      
       <Nav />
-      
       <Switch>
+      
           <Route exact path="/"  component={Home} />;
           <Route exact path="/main" component={Main} />;
           <Route exact path="/register" component={Register} />;
@@ -33,7 +33,7 @@ const App = () => {
           <Route exact path="/add" component={Add} />;
           <Route exact path="/list" component={List} />;
         </Switch>
-        </BrowserRouter>   
+        </Router>   
       
     </>
   );
