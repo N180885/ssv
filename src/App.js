@@ -18,7 +18,8 @@ const App = () => {
   return (
     <>
       <img src={Voz} alt=""/>      
-      <Nav /> 
+      <Nav />
+      <Home /> 
       {/* <BrowserRouter> */}
       <Switch>
           <Route exact path="/"  component={Home} />;
