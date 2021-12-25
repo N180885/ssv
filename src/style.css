@@ -241,11 +241,6 @@ nav{
 }
 
 
-
-
-
-
-
 @media screen and (max-width: 768px){
     
 nav{
@@ -259,7 +254,7 @@ nav{
     display: flex;
     align-items:stretch;
 }
-.name>img{
+.name img{
     width: 25rem;
     height: 37rem;
     position:relative;    

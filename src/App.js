@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter , Route, Switch } from "react-router-dom";
 import "./style.css";
 import Nav from "./components/nav";
 import Main from "./components/main";
@@ -17,24 +17,22 @@ import List from "./views/list";
 const App = () => {
   return (
     <>
-      <Router>
       <img src={Voz} alt=""/>      
       <Nav />
-      <Switch>
-      
-          <Route exact path="/"  component={Home} />;
-          <Route path="/main" component={Main} />;
-          <Route path="/register" component={Register} />;
-          <Route path="/enter" component={Enter} />;
-          <Route path="/sot" component={Sot} />;
-          <Route path="/rez" component={Rez} />;
-          <Route path="/lech" component={Lech} />;
-          <Route path="/info" component={Info} />;
-          <Route path="/add" component={Add} />;
-          <Route path="/list" component={List} />;
+      <BrowserRouter>
+      <Switch>      
+          <Route exact path="/" component={Home} />;
+          <Route exact path="/main" component={Main} />;
+          <Route exact path="/register" component={Register} />;
+          <Route exact path="/enter" component={Enter} />;
+          <Route exact path="/sot" component={Sot} />;
+          <Route exact path="/rez" component={Rez} />;
+          <Route exact path="/lech" component={Lech} />;
+          <Route exact path="/info" component={Info} />;
+          <Route exact path="/add" component={Add} />;
+          <Route exact path="/list" component={List} />;
         </Switch>
-        </Router>   
-      
+        </BrowserRouter>        
     </>
   );
 };
